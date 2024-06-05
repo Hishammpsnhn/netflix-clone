@@ -5,6 +5,11 @@ body {
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
 }
+select{
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
 .home1{
     position: relative;
     overflow: hidden;
@@ -23,7 +28,7 @@ body {
 .btn_eng{
     background: none;
     border: 1px grey solid;
-    padding: 8px 15px 5px 0px ;
+    padding: 3px 15px 3px 0px ;
     color: white;
     font-size: 15px;
     border-radius: 4px;
@@ -375,6 +380,9 @@ footer span a{
 .footer-item a{
     margin-top: 1rem;
     text-decoration: underline;
+}
+.footer-item a:hover{
+    cursor: pointer;
 }
 .netflix{
     margin-top: 30px;
